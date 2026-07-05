@@ -51,8 +51,6 @@ EOF
 tor &
 4. Load and run the tool:
 bash
-# Load the script
-wget https://raw.githubusercontent.com/HA-MRX/InstaBrute/main/insta.py -O insta.py
 
 # Or create the file manually
 nano insta.py
