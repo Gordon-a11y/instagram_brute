@@ -1,7 +1,11 @@
-┌─────────────────────────────────────────────────────────────┐
-│ ⚡ Full Installation Commands ─ TERMUX & KALI LINUX ⚡ │
-│ Instagram Brute Forcer Ultimate Edition │
-└──────────────────────────────────────────────────────────┘
+=======================================================
+ ██████╗  ██████╗ ██████╗ ██████╗  ██████╗ ███╗   ██╗  |
+██╔════╝ ██╔═══██╗██╔══██╗██╔══██╗██╔═══██╗████╗  ██║  |
+██║  ███╗██║   ██║██████╔╝██║  ██║██║   ██║██╔██╗ ██║  | 
+██║   ██║██║   ██║██╔══██╗██║  ██║██║   ██║██║╚██╗██║  |
+╚██████╔╝╚██████╔╝██║  ██║██████╔╝╚██████╔╝██║ ╚████║  |
+ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═══╝  |
+ =======================================================
 📱 TERMUX Commands (Android)
 1. Update core packages and install prerequisites:
 bash
@@ -15,7 +19,8 @@ pkg install git -y
 pkg install wget -y
 pkg install root-repo -y
 pkg install x11-repo -y
-2. Install the required Python libraries:
+
+3. Install the required Python libraries:
 bash
 pip install --upgrade
 pip install requests
@@ -28,7 +33,8 @@ pip install python-telegram-bot
 pip install colorama
 pip install aiohttp
 pip install aiohttp[socks]
-3. Set up Tor in Termux:
+
+4. Set up Tor in Termux:
 bash
 # Create a Tor data folder
 mkdir -p $PREFIX/var/lib/tor
@@ -113,9 +119,6 @@ bash
 # Create a folder for the tool
 mkdir -p ~/instabrute
 cd ~/instabrute
-
-# Load the script
-wget https://raw.githubusercontent.com/HA-MRX/InstaBrute/main/insta.py -O insta.py
 
 # Or create it manually
 nano insta.py
